@@ -1,0 +1,14 @@
+#RO_pag157_funcions_2.0.py
+def f(x):
+ y=2*x**2 + 1
+ return y
+def g(x):
+ y=3*x**3 + 5
+ return y
+for i in range(0,5):
+    y=f(i)
+    print(i,y)
+
+for i in range(5):
+    y=g(i)
+    print(i,y)
